@@ -68,7 +68,7 @@ class cHoster(iHoster):
 
     def __getMediaLinkForGuest(self):
         
-        HOST = 'www.flashx.cc'
+        HOST = 'www.flashx.host'
 
         sId = self.__getIdFromUrl(self.__sUrl)
         #web_url = 'http://' + HOST + '/fxplay-%s.html' % sId
